@@ -48,7 +48,7 @@ Testing the Model on New Images
 
 ![Results](./images/prediction.png)
 
-The model was used to identify images found on the web showcased an accuracy of 50%.  One of the images however, did not belong to the training dataset so it was expected that the model was unable to make the right prediction.  For improvements, I believe utilizing different pre-processing techniques for the data set can resolve the issue.   
+The model was used to identify images found on the web showcased an accuracy of 50%.  One of the images however, did not belong to the training dataset so it was expected that the model was unable to make the correct prediction.  For improvements, I believe utilizing different pre-processing techniques for the data set can resolve the issue for the other images it should have predicted correctly.  As an example, the visibility of the sign in the last test image was obscured by the snow.  We can apply filters on the test data set to allow for more leniency, ignoring debris or environment variables impacting the visibility of signs.   
 
 
 Conclusion
