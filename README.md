@@ -27,7 +27,7 @@ Dataset Summary & Exploration
 
 Model Architecture
 ---
-The LeNet architecture, credited to http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf and https://github.com/udacity/CarND-LeNet-Lab/, is the primary model used for training and classifying traffic signs. It takes a 32x32 input with 3 different color channels(RGB), which is processed by a convolutional layer, next by a pooling layer. It goes through another sequence of convolution layers and pooling layers and the input goes through an output layer in the end outputting 43 different classes. The original model does not include dropout; however, it was added to improve my model and to help with overfitting. Dropout ensures my network to not rely on any given activation to be present, forcing it to learn a redundant representation for everything to ensure some information remains.
+The LeNet architecture, credited to http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf and https://github.com/udacity/CarND-LeNet-Lab/, is the primary model used here for training and classifying traffic signs.  It takes a 32x32 input with 3 different color channels(RGB), which is processed by a convolutional layer, next by a pooling layer.  It goes through another sequence of convolution layers and pooling layers and the input goes through an output layer in the end outputting 43 different classes.  The original model does not include dropout; however, it was implemented here to help reduce overfitting.  Dropout ensures the network to not rely on any given feature to be present, forcing it to learn a redundant representation for everything to ensure some information from all of the inputs remains.  
 
 ![LeNet](./images/lenet.png) 
 
