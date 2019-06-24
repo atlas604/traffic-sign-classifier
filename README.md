@@ -2,7 +2,7 @@
 
 Overview 
 ---
-This project utilizes deep neural networks and convolutional neural networks to classify traffic signs.  A model is trained and validated  so it can classify sign images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset).
+This project utilizes deep neural networks and convolutional neural networks to classify traffic signs.  The model is trained and validated using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) so it can classify sign images in the real world.
 
 
 Dependencies
